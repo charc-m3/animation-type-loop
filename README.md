@@ -13,7 +13,7 @@ startAnimation(element: HTMLELement, words: [String], [typeDelay: Number(ms), de
 ## Example
 
 ```js
-import { startAnimation } from './animation-type-words.js';
+import { startAnimation } from './animation-type-loop.js';
 const animation = startAnimation(document.getElementById('target_span'), [
 	'apple',
 	'banana',
